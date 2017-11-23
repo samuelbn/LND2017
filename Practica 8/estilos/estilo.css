@@ -1,0 +1,30 @@
+fieldset {
+   
+   border-color: yellow;
+   background-color:cornsilk;
+   border-width: 9px;
+   border-style: solid;
+   margin: 14px;
+   width:600px;
+}
+
+fieldset  label {
+    width: 20%;
+   float: left;
+}
+
+.red {
+    background-color: red;
+}
+
+.lila {
+    background-color:darkorchid;
+}
+
+label:hover {
+   font-size: 30px;
+}
+
+#enviar{
+    margin: 10px;
+}
