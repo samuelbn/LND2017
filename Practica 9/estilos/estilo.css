@@ -1,0 +1,22 @@
+nav a {
+	text-decoration: none;
+	background-color: black;
+    padding: 10px;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+}
+
+li {
+    display: inline-block;
+   }
+
+ul {
+   padding: 10px;
+   margin-left: -8px;
+    
+}
+
+nav ul :hover {
+    background-color: red;
+}
