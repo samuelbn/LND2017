@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body > h2 {
+    margin-left: 45%;
+}
+
+.todo {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:90%;
+    margin: auto;
+}
+
+.box{
+    background-color: darkgrey;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.box1 h2 { 
+    background-color: darksalmon;
+    text-align: center;
+    margin-left: 66%;
+    border: 1px solid black;
+    margin-top: 0%;
+}
+
+.box p {   
+    padding: 5px;
+}
+
+.box2 h2 {  
+    background-color: brown;
+    text-align: center;
+    margin-left: 66%;
+    border: 1px solid black;
+    margin-top: 0%;
+}
+
+.box3 h2 {   
+    background-color: darkkhaki;
+    text-align: center;
+    margin-left: 66%;
+    border: 1px solid black;
+    margin-top: 0%;
+}
+
+.columna1 , .columna2 , .columna3 {
+    
+    width: 33.33%;
+}
+
+/*----------------------Para tablets-----------------------------*/
+@media screen and (min-width: 768px) and (max-width: 900px) {   
+    
+    .columna1 , .columna2 {
+         width: 50%;
+}
+    .columna3 {
+        width: 100%;
+}
+
+} 
+/*---------------------------------------------------------------*/
+
+/*----------------------Para movil-------------------------------*/
+
+@media (max-width: 767px) {   
+    
+    .columna1, .columna2, .columna3 {
+         width: 100%;
+}
+    body > h2 {    
+        margin-left: 35%;
+} 
+}
+/*---------------------------------------------------------------*/
