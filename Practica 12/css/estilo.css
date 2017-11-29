@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.todo {
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar .menu {
+    display: flex;
+    margin-right: 40px;
+}
+
+
+.navbar .menu li {
+    
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 4px;
+}
+
+.menu li a:hover {
+    font-weight:bolder;
+}
+
+.navbar .menu a {
+    flex: 1;
+    background-color:black;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+#menu {
+    
+    display: none;
+}
+
+.icon-menu {
+
+    display: none;
+}
+
+header { 
+    background-color:darkgray;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content:space-between; 
+}
+
+header > h2 {   
+    margin-left: 25px;
+    margin-top: 25px;
+    color: black;
+}
+
+.titulo {
+    
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.columna1 , .columna2 , .columna3 {
+    
+    width: 33.33%;
+}
+
+.box{
+    
+    background-color: darkgray;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {   
+    
+    .columna1 , .columna2 {
+        
+        width: 50%;
+}
+    .columna3 {
+        
+        width: 100%;
+    }
+
+} 
+
+@media (max-width: 767px) {   
+    
+    .columna1, .columna2, .columna3 {
+        
+        width: 100%;
+    }
+    
+    header > h2 {
+        
+        margin-top: 20px;
+    }
+    
+    .icon-menu {
+        
+        position: absolute;
+        cursor: pointer;    
+        display: flex;
+        margin-left: -15%;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    nav {
+        position: absolute;
+        top: 100px;
+        transform: translateX(-100%);
+        display: none;
+        margin-left: 70%;
+        background: rgba(50,50,50,0.99);
+    }
+    
+    #menu:checked ~ nav{
+        
+        transform: translateX(0%);
+        top: 67px;
+        border-radius: 5px;
+        left: -70%;
+        width: 98%;
+        margin-left: 71%;
+        height: 183px;
+        display: flex;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu , li {
+        height: 150px;
+        width: 800%;
+        align-content: center;
+    }
+    
+    .menu  li a:hover {
+        
+        background-color: darkgray;
+    }
+    
+    .contenedor {
+        
+         background-color: darkgray;
+    }
+}
+p{
+    padding: 10px;
+    
+}
+.caja1 h2 {
+    background-color: darkgray;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.caja2 h2 {
+    
+    background-color: darkgray;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.caja3 h2 {
+    
+    background-color: darkgray;
+    text-align: center;
+    margin-top: 5%;
+}
