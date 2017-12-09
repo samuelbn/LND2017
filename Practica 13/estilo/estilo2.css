@@ -1,0 +1,149 @@
+body {
+    background: #E9E9E9;
+}
+
+.flex-container{
+    width: 700px;
+    height: 200px;
+    backface-visibility: #fff;
+    padding: 10px;
+    border: 10px solid #2C3E50;
+    margin: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+}
+
+.flex-item1 {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item2 {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item3 {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item4 {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item5 {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item6 {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.flex-item7 {
+  background: tomato;
+  padding: 5px;
+  width: 160px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/*.elemento1{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.elemento2{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 16%;
+    height: 30%;
+}
+
+.elemento3{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 16%;
+    height: 30%;
+}
+.elemento4{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 16%;
+    height: 30%;
+}
+.elemento5{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.elemento6{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 20%;
+    height: 16%;
+}
+.elemento7{
+    color: #fff;
+    margin:5px;
+    background: #E67E22;
+    text-align: center;
+    width: 20%;
+    height: 16%;
+} */
